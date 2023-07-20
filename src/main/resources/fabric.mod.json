@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "mcmefabric",
+  "version": "${version}",
+
+  "name": "MCME Fabric",
+  "description": "Fabric mod for MCME to handle stuff.",
+  "authors": [
+    "Jubo"
+  ],
+  "contact": {
+    "homepage": "https://www.mcmiddleearth.com/",
+    "sources": "https://github.com/MCME"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mcmefabric/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mcmiddleearth.mcmefabric.MCMEFabric"
+    ],
+    "client": [
+      "com.mcmiddleearth.mcmefabric.MCMEFabricClient"
+    ],
+    "server": [
+      "com.mcmiddleearth.mcmefabric.MCMEFabricServer"
+    ]
+  },
+  "mixins": [
+    "mcmefabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
