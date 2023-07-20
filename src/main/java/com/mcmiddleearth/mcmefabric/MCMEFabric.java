@@ -1,5 +1,6 @@
 package com.mcmiddleearth.mcmefabric;
 
+import io.github.fabricators_of_create.porting_lib.PortingLibObjLoader;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +15,7 @@ public class MCMEFabric implements ModInitializer{
 
 	@Override
 	public void onInitialize() {
-		//PortingLibObjLoader.loadModel(null,null);
+		PortingLibObjLoader.loadModel(null,null);
 		LOGGER.info("Hello Fabric world!");
 	}
 
