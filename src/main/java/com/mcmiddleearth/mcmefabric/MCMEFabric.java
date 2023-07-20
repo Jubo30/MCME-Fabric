@@ -15,7 +15,7 @@ public class MCMEFabric implements ModInitializer{
 
 	@Override
 	public void onInitialize() {
-		PortingLibObjLoader.loadModel(null,null);
+		//PortingLibObjLoader.loadModel(null,null);
 		LOGGER.info("Hello Fabric world!");
 	}
 
