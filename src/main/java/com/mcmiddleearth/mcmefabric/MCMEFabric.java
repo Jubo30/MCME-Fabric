@@ -1,6 +1,5 @@
 package com.mcmiddleearth.mcmefabric;
 
-import io.github.fabricators_of_create.porting_lib.PortingLibObjLoader;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

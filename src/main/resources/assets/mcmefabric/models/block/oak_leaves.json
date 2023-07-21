@@ -1,0 +1,10 @@
+{
+  "parent": "block/block",
+  "loader": "porting_lib:obj",
+  "flip-v": true,
+  "model": "mcmefabric:models/block/oak_leaves_2.obj",
+  "mtl_override": "mcmefabric:models/block/oak_leaves_2.mtl",
+  "textures": {
+    "all": "mcmefabric:block/oak_leaves_new"
+  }
+}
