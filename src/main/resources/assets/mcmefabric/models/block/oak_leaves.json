@@ -1,5 +1,5 @@
 {
-  "parent": "block/block",
+  "parent": "block/leaves_parent",
   "loader": "porting_lib:obj",
   "flip-v": true,
   "model": "mcmefabric:models/block/oak_leaves_2.obj",

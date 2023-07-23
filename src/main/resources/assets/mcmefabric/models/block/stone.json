@@ -1,8 +1,0 @@
-{
-  "parent": "block/block",
-  "loader": "porting_lib:obj",
-  "flip-v": true,
-  "textures": {
-    "all": "mcmefabric:block/tanzanite_block"
-  }
-}

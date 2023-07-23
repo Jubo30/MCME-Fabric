@@ -1,5 +1,9 @@
 {
   "variants": {
-    "": {"model":  "mcmefabric:block/oak_leaves"}
+    "distance=7,persistent=true.,waterlogged=false":[
+    {
+      "porting_lib:obj_marker": true,
+      "model":  "mcmefabric:block/oak_leaves"}
+    ]
   }
 }

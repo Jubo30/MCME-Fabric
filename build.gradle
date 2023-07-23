@@ -37,6 +37,9 @@ dependencies {
 	modImplementation 'io.github.fabricators_of_create.Porting-Lib:obj_loader:2.1.872+1.19.4'
 	modRuntimeOnly 'io.github.fabricators_of_create.Porting-Lib:obj_loader:2.1.872+1.19.4'
 
+	modImplementation "io.github.fabricators_of_create.Porting-Lib:model_loader:2.1.872+1.19.4"
+	modRuntimeOnly "io.github.fabricators_of_create.Porting-Lib:model_loader:2.1.872+1.19.4"
+
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
